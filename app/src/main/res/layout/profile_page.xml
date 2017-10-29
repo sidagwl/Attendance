@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light"
+    android:fillViewport="true"
+
+    android:focusableInTouchMode="true">
+
+    <RelativeLayout
+        android:id="@+id/UserProfile"
+
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bck"/>
+
+        <TextView
+            android:id="@+id/UserProfileTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="140dp"
+            android:layout_centerHorizontal="true"
+            android:text="Profile"
+            android:background="@color/colorPrimaryDark"
+            android:padding="8dp"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="28.0sp"
+            android:textStyle="bold"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"/>
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/UserProfileTable"
+
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/UserProfileTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20.0sp"
+            android:layout_marginRight="20.0sp"
+            android:padding="8dp"
+            android:textSize="10.0sp"
+            android:background="@drawable/border_3"
+            >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/UserProfileUIDAI"
+                        android:background="@drawable/border_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Teacher ID"
+                        android:padding="12dp"
+                        android:textAlignment="center"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TecherID"
+                        android:background="@drawable/border_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="12dp"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textSize="10dp" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/Name"
+                        android:background="@drawable/border_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:padding="12dp"
+                        android:textAlignment="center"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/TeacherName"
+                        android:background="@drawable/border_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="12dp"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textSize="10dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/UserProfileContactNumber"
+                        android:background="@drawable/border_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Subject"
+                        android:padding="12dp"
+                        android:textAlignment="center"
+                        android:textSize="10dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/Subject"
+                        android:background="@drawable/border_2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text=""
+                        android:padding="12dp"
+                        android:textAlignment="center"
+                        android:textSize="10dp" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent">
+
+                    <Button
+                        android:id="@+id/UserProfilePUCButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20.0dp"
+                        android:layout_marginRight="20.0dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="Mark Attendance"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffffff"
+                        android:textSize="16.0sp"
+                        android:textStyle="normal"/>
+                    <Button
+                        android:id="@+id/UserProfileInsuranceButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20.0dp"
+                        android:layout_marginRight="20.0dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@color/colorPrimaryDark"
+                        android:text="View Records"
+                        android:textAlignment="center"
+                        android:textAllCaps="false"
+                        android:textColor="#ffffffff"
+                        android:textSize="16.0sp"
+                        android:textStyle="normal"/>
+
+                </TableRow>
+            </TableLayout>
+
+        </android.support.design.widget.TextInputLayout>
+
+    </RelativeLayout>
+</ScrollView>

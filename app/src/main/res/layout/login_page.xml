@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/login_page"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="100dp">
+
+    <ImageView
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:tint="@android:color/white"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/banner"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:padding="8dp"
+        android:id="@+id/line1"
+        android:layout_marginBottom="10dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@android:color/white"
+            android:src="@drawable/ic_person_black_24dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textColorHint="@android:color/white"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:background="#2196F3"
+            android:id="@+id/editText3"
+            android:textColor="@android:color/white"
+
+            android:hint="Username" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/line2"
+        android:background="#2196F3"
+        android:padding="8dp"
+        android:layout_below="@+id/line1">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:tint="@android:color/white"
+            android:src="@drawable/ic_lock_black_24dp"
+            android:layout_gravity="center"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:textColor="@android:color/white"
+            android:password="true"
+            android:hint="Password"
+            android:background="#2196F3"
+            android:textColorHint="@android:color/white"
+            android:id="@+id/editText4"
+
+
+            />
+
+
+    </LinearLayout>
+
+
+    <Button
+        android:text="Login"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:textColor="@android:color/white"
+        android:background="#546E7A"
+        android:layout_below="@+id/line2"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="@android:color/white"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="Not a Member,Sign Up"
+        android:layout_below="@id/button"
+        android:id="@+id/toregisterscreen" />
+
+
+
+</RelativeLayout>

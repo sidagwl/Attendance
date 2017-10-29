@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck"
+    android:id="@+id/a1">
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:ems="10"
+        android:id="@+id/editText"
+        android:hint="Enter Todays Date(YYYY-MM-DD)" />
+
+    <CheckBox
+        android:text="Abhay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox" />
+
+    <CheckBox
+        android:text="Siddhartha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox2" />
+
+    <CheckBox
+        android:text="Arun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox3" />
+
+    <CheckBox
+        android:text="Jatin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox4" />
+
+    <CheckBox
+        android:text="Risi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/checkBox5" />
+    <Button
+        android:text="MARK"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btton" />
+
+
+</LinearLayout>

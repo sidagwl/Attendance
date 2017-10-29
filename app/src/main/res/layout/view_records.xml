@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@android:color/background_light"
+    android:fillViewport="true"
+    android:focusableInTouchMode="true">
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/PUCProfile"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center_vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bck"/>
+
+
+
+
+        <TextView
+
+            android:id="@+id/userInsurancetitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/colorPrimaryDark"
+            android:padding="8dp"
+            android:text="Attendance Record"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="28.0sp"
+            android:textStyle="bold" />
+
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/PUCProfileTable"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/userInsurancetitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20.0sp"
+            android:layout_marginRight="20.0sp"
+            android:padding="8dp"
+            android:textSize="18.0sp"
+            android:background="@drawable/border_3"
+            >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:shrinkColumns="*"
+                android:stretchColumns="*">
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/Policy_no"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_1"
+                        android:padding="12dp"
+                        android:text="Student Name"
+                        android:textAlignment="center"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/policy_noText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_2"
+                        android:padding="12dp"
+                        android:text="Status"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/Branch_Code"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_1"
+                        android:padding="12dp"
+                        android:text="Abhay"
+                        android:textAlignment="center"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/s1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_2"
+                        android:padding="12dp"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/Holders_UIDAI"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_1"
+                        android:padding="12dp"
+                        android:text="Siddhartha"
+                        android:textAlignment="center"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/s2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_2"
+                        android:padding="12dp"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/Holders_Name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_1"
+                        android:padding="12dp"
+                        android:text="Arun"
+                        android:textAlignment="center"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/s3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_2"
+                        android:padding="12dp"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+                </TableRow>
+
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/Holders_Email"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_1"
+                        android:padding="12dp"
+                        android:text="Jatin"
+                        android:textStyle="bold"
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+
+                    <TextView
+                        android:id="@+id/s4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_2"
+                        android:padding="12dp"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/Holders_Address"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="@drawable/border_1"
+                        android:padding="12dp"
+                        android:text="Rishi"
+                        android:textAlignment="center"
+                        android:textSize="18dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/s5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@drawable/border_2"
+                        android:padding="12dp"
+                        android:text=""
+                        android:textAlignment="center"
+                        android:textSize="18dp" />
+                </TableRow>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </TableLayout>
+
+        </android.support.design.widget.TextInputLayout>
+
+        <Button
+            android:id="@+id/PUCProfileEditButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/dated"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="20.0dp"
+            android:layout_marginRight="20.0dp"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimaryDark"
+            android:text="Generate Records"
+
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="#ffffffff"
+            android:textSize="16.0sp"
+            android:textStyle="normal" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="date"
+            android:ems="10"
+            android:layout_marginLeft="50dp"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/border_2"
+            android:layout_below="@+id/PUCProfileTable"
+            android:layout_alignStart="@+id/PUCProfileTable"
+
+            android:id="@+id/dated"
+            android:hint="Enter the Date(YYYY-MM-DD)" />
+
+
+    </RelativeLayout>
+</RelativeLayout>
